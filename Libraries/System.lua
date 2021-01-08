@@ -2452,9 +2452,9 @@ function system.updateDesktop()
 		workspace:draw()
 	end
 
-	MineOSContextMenu:addItem(localization.updates).onTouch = function()
-		system.execute(paths.system.applicationAppMarket, "updates")
-	end
+	-- MineOSContextMenu:addItem(localization.updates).onTouch = function()
+	-- 	system.execute(paths.system.applicationAppMarket, "updates")
+	-- end
 
 	MineOSContextMenu:addSeparator()
 
