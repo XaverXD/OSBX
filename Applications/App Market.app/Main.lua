@@ -33,7 +33,7 @@ local localization = system.getLocalization(currentScriptDirectory .. "Localizat
 local categories = {
 	localization.categoryApplications,
 	localization.categoryLibraries,
-	-- localization.categoryScripts,
+	localization.categoryScripts,
 }
 
 local orderDirections = {
