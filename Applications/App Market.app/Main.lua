@@ -1909,14 +1909,14 @@ for i = 1, #categories do
 	end
 end
 
-leftList:addItem(localization.categoryUpdates).onTouch = function()
-	loadCategory(nil, true)
-end
+-- leftList:addItem(localization.categoryUpdates).onTouch = function()
+-- 	loadCategory(nil, true)
+-- end
 
 messagesItem = leftList:addItem(localization.messages)
 messagesItem.onTouch = dialogs
 
-leftList:addItem(localization.settings).onTouch = settings
+-- leftList:addItem(localization.settings).onTouch = settings
 
 window.onResize = function(width, height)
 	leftList.height = height - leftListPanel.height
